@@ -95,7 +95,7 @@
             <div id="f_tri_s2"></div>
             <div id="f_tri_s3"></div>
             <div id="github"> 
-                <a href="https://github.com/MeidenWeiss/Learning_Task2.3"><img id="git_img" src="images/github.png"/></a>
+                <a href="https://github.com/MeidenWeiss/portfolio.exe"><img id="git_img" src="images/github.png"/></a>
             </div>
         </div>
         <a href="#">

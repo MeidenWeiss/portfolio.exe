@@ -1,0 +1,275 @@
+.title{
+    position: absolute;
+    font-family: "Trebuchet MS";
+}
+
+/* There was a tree */
+#box_1{
+    width: 200px;
+    height: 300px;
+    border: 3px solid #000000;
+    margin: 100px;
+    overflow: hidden;
+    float: left;
+}
+
+.cl_circle_1{
+    fill: #008000;
+}
+
+.cl_circle_2{
+    fill: #ffffff2a;
+}
+
+.cl_line_1{
+    stroke: #a52a2a;
+    stroke-width: 10px;
+    stroke-linecap: round;
+}
+
+#tree{
+    transform: translate(-100px, 0px);
+}
+
+#cl_land{
+    fill: #008000;
+}
+
+/* Gameboy */
+#box_2{
+    width: 200px;
+    height: 300px;
+    border: 3px solid #000000;
+    background-color: #e2e2e2;
+    margin: 100px;
+    overflow: hidden;
+    float: left;
+    border-bottom-right-radius: 40px;
+}
+
+#screen{
+    fill: #808080;
+    stroke: #000000;
+    stroke-width: 0.5px;
+}
+
+#g_screen{
+    fill: #22ce22;
+    stroke: #000000;
+    stroke-width: 0.5px;
+}
+
+#dpad{
+    fill: #b8b8b8;
+}
+
+#buttons{
+    fill: #b8b8b8;
+    transform: translate(-60px, 45px) rotate(-20deg);
+}
+
+.blue{
+    fill: #00008b;
+}
+
+.maroon{
+    fill: #fd203e;
+}
+
+/* Chocobar */
+#box_3{
+    width: 200px;
+    height: 300px;
+    margin: 100px;
+    border: 3px solid #000000;
+    background-color: #a52a2a;
+    float: left;
+}
+
+#wrapper{
+    fill: #ff4b4b;
+    stroke:#000000;
+    stroke-width: 2;
+}
+
+.bite{
+    fill: #ffffff;
+}
+
+#c_circle_1{
+    fill: #000000;
+}
+
+#c_circle_2{
+    fill: #ff4b4b;
+}
+
+/* Stick Food */
+#box_4{
+    width: 200px;
+    height: 300px;
+    margin: 100px;
+    border: 3px solid #000000;
+    overflow: hidden;
+    float: left;
+}
+
+.c{
+    fill: #ffe054;
+    stroke:#000000;
+    stroke-width: 2;
+}
+
+.cw{
+    fill: #ffffff;
+}
+
+#stake{
+    fill: none;
+    stroke:#000000;
+    stroke-width: 3;
+}
+
+/* Cityscape */
+#box_5{
+    width: 200px;
+    height: 300px;
+    border: 3px solid #000000;
+    background-color: #483d8b;
+    margin: 100px;
+    overflow: hidden;
+    float: left;
+}
+
+.building{
+    fill: #000;
+}
+
+.lit_window{
+    fill: #ffff00;
+}
+
+.c_white{
+    fill: #ffffff;
+}
+
+.antenna{
+    stroke: #000000;
+    stroke-width: 2;
+}
+
+/* Tech */
+#box_6{
+    width: 200px;
+    height: 300px;
+    border: 3px solid #000000;
+    background-color: #000;
+    margin: 100px;
+    overflow: hidden;
+    float: left;
+}
+
+.poly_1{
+    fill: #ff00009a;
+    stroke: #000;
+    stroke-width: 2;
+    transform: translate(30px, 40px);
+}
+
+.poly_2{
+    fill: #33ff009a;
+    stroke: #000;
+    stroke-width: 2;
+    transform: translate(90px, 40px);
+}
+
+.poly_3{
+    fill: #1100ff9a;
+    stroke: #000;
+    stroke-width: 2;
+    transform: translate(150px, 40px);
+}
+
+#g1{
+    transform: translate(0px, 100px);
+}
+
+#g2{
+    transform: translate(0px, 200px);
+}
+
+#poly_l{
+    fill: #ffffff;
+    stroke: #000;
+    stroke-width: 2;
+}
+
+/* ALL */
+#box_7{
+    width: 200px;
+    height: 300px;
+    border: 3px solid #000000;
+    background-color: #483d8b;
+    margin: 100px;
+    overflow: hidden;
+    float: left;
+}
+
+#t_detail_1{
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+}
+
+#t_detail_2{
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+    transform: translate(30px, 30px);
+}
+
+#t_detail_3{
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+    transform: translate(60px, 0px);
+}
+
+#star_1{
+    fill: #ffffff;
+}
+
+#star_2{
+    fill: #ffffff;
+    transform: translate(20px, 20px);
+}
+
+#star_3{
+    fill: #ffffff;
+    transform: translate(40px, 0px);
+}
+
+#star_4{
+    fill: #ffffff;
+    transform: translate(20px, -20px);
+}
+
+#g_star0{
+    transform: translate(80px, 0px);
+}
+
+#g_star1{
+    transform: translate(0px, 40px);
+}
+
+#g_star2{
+    transform: translate(80px, 40px);
+}
+
+#link{
+    position: absolute;
+    font-family: "Trebuchet MS";
+    text-decoration: underline;
+    color: #0000ff;
+    transform: translate(350px, 10px);
+}
