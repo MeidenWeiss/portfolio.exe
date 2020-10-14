@@ -9,7 +9,7 @@
     <body>
         <div id="notice">
             Page under construction
-            <img src="images/sorry.jpg" id="img_sorry"/>
+            <img src="images/sorry.JPG" id="img_sorry"/>
         </div>
     </body>
 </html>
