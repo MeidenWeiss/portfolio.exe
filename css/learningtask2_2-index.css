@@ -1,0 +1,415 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face { 
+    font-family: "Futuristic Armor";   
+    src: url("../fonts/futuristic_armor.otf"); 
+}
+
+#box_logo{
+    width: 1000px; 
+    height: 280px; 
+    background-color: #ffffff;
+    border-right: 10px #ffee00 solid;
+    transform: translate(-10px, 50px);
+    box-shadow: 10px 10px 50px 0px #0000004d;
+}
+
+#logo_text{
+    font-family: "Futuristic Armor";
+    font-size: 72pt;
+    letter-spacing: 6;
+    position: absolute;
+    transform: translate(120px, 120px);
+}
+
+#box_tri{
+    width: 90px;
+    height: 60px;
+    border-bottom: 5px #000000 solid;
+    border-left: 5px #000000 solid;
+    border-top: 5px #000000 solid;
+    background-color: #ffffff;
+    transform: translate(80px, 15px);
+    position: absolute;
+}
+
+#box_blinker{
+    width: 15px;
+    height: 35px;
+    background-color: #000000;
+    transform: translate(35px, 10px);
+}
+
+#up-triangle {
+    width: 0; 
+    height: 0; 
+    border-bottom: 120px solid #000000; 
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(100px, 35px);
+    float: left;
+}
+
+#small_box1{
+    width: 80px;
+    height: 70px;
+    background-color: #000000;
+    transform: translate(-75px, 50px);
+}
+
+#line_1{
+    width: 50px;
+    height: 5px;
+    background-color: #ffffff;
+    transform: translate(-5px, 30px);
+}
+
+#circle_logo_1{ 
+    width: 130px;
+    height: 130px;
+    background-color: #000000;
+    border-radius: 70px;
+    transform: translate(250px, 30px);
+}
+
+#circle_logo_white_1{ 
+    width: 0; 
+    height: 0; 
+    border-bottom: 80px solid #ffffff;
+    border-right: 170px solid transparent;
+    transform: translate(60px, -10px);
+}
+
+#circle_logo_white_2{ 
+    width: 0; 
+    height: 0; 
+    border-top: 100px solid #ffffff; 
+    border-left: 80px solid transparent;
+    transform: translate(-20px, -10px);
+}
+
+#box_i{
+    width: 50px; 
+    height: 130px; 
+    background-color: #000000;
+    transform: translate(400px, -90px);
+}
+
+#box_m{
+    width: 130px;
+    height: 130px;
+    background-color: #000000;
+    transform: translate(470px, -220px);
+}
+
+#box_m1_triangle{
+    width: 0; 
+    height: 0;
+    border-top: 70px solid #ffffff;
+    border-left: 65px solid transparent; 
+    border-right: 65px solid transparent;
+}
+
+#box_m2_triangle{
+    width: 0; 
+    height: 0;
+    border-top: 70px solid #555555;
+    border-left: 65px solid transparent; 
+    border-right: 65px solid transparent;
+    transform: translate(0px, -50px);
+}
+
+#box_m3_triangle{
+    width: 0; 
+    height: 0;
+    border-top: 70px solid #ffee00;
+    border-left: 65px solid transparent; 
+    border-right: 65px solid transparent;
+    transform: translate(0px, -100px);
+}
+
+#circle_logo_2{ 
+    width: 130px;
+    height: 130px;
+    background-color: #000000;
+    border-radius: 70px;
+    transform: translate(620px, -345px);
+}
+
+#v_triangle { 
+    width: 0; 
+    height: 0;
+    border-top: 120px solid #000000;
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(750px, -470px); 
+}
+
+/* ---------------- MENU BAR ---------------- */
+/* #menu_block {
+    position: sticky;
+    top: -150;
+    z-index: 1;
+} */
+
+#menu_container{
+    width: 700px;
+    height: 70px;
+    border-left: 10px #ffee00 solid;
+    transform: translate(0px, 150px);
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    float: right;
+}
+
+.menu_box{
+    width: 175px;
+    height: 70px;
+    line-height: 70px;
+    font-family: "Futuristic Armor";
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+/* CONTENT CONTAINERS */
+#text_container_1{
+    width: 350px;
+    height: 900px;
+    background-color: #ffffff;
+    border-top: 10px #ffee00 solid;
+    border-bottom: 10px #ffee00 solid;
+    transform: translate(100px, 450px);
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+/* Divider */
+.line_div{
+    width: 150px;
+    height: 10px;
+    background-color: #ffee00;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    transform: skewX(40deg);
+}
+
+#mini_tri_1{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 57.5px 55.0px 57.5px;
+    border-color: transparent transparent #000000 transparent;
+    position: absolute;
+    transform: rotate(25deg) translate(60px, -170px);
+}
+
+#mini_tri_2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 37.5px 65.0px 37.5px;
+    border-color: transparent transparent #555555 transparent;
+    position: absolute;
+    transform: rotate(45deg) translate(25px, -190px);
+}
+
+#mini_tri_3{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 37.5px 65.0px 37.5px;
+    border-color: transparent transparent #ffee00 transparent;
+    position: absolute;
+    transform: translate(125px, -140px);
+}
+/* --------------------------------------------- */
+.title{
+    font-family: "Futuristic Armor";
+    text-align: center;
+    font-size: 30;
+}
+
+.text_p1{
+    font-family: "Trebuchet MS";
+    font-size: 16;
+    text-align: justify;
+    margin: 35px;
+    text-indent: 15%;
+}
+
+.text_p2{
+    font-family: "Trebuchet MS";
+    font-size: 16;
+    text-align: center;
+    margin: 35px;
+}
+
+/* RIGHT SIDE CONTENTS */
+#image_1{
+    width: 600px;
+    height: 350px;
+    background-color: #ffffffc0;
+    transform: translate(550px, -500px);
+}
+
+#image_2{
+    width: 600px;
+    height: 350px;
+    background-color: #ffffffc0;
+    transform: translate(550px, -400px);
+}
+
+#border_line_1{
+    width: 100px;
+    height: 100px;
+    border-top: 25px solid #ffee00;
+    border-left: 25px solid #ffee00;
+}
+
+#border_line_2{
+    width: 100px;
+    height: 100px;
+    border-right: 25px solid #ffee00;
+    border-bottom: 25px solid #ffee00;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+#border_line_1_gray{
+    width: 100px;
+    height: 100px;
+    border-top: 25px solid #555555;
+    border-left: 25px solid #555555;
+}
+
+#border_line_2_gray{
+    width: 100px;
+    height: 100px;
+    border-right: 25px solid #555555;
+    border-bottom: 25px solid #555555;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+/* ------------------------------------------------ FOOTER ---------------------------------------------------- */
+#footer{
+    width: 100%;
+    height: 400px;
+    background-color: #ffee00;
+    transform: translateY(-300px);
+}
+
+#f_content{
+    width: 600px;
+    height: 320px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    border-left: #000000 10px solid;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(50px, 25px);
+}
+
+#f_title{
+    font-family: "Futuristic Armor";
+    font-size: 32;
+}
+
+/* "* { border: 1px solid red; }" -- Outlining to check for spacing */
+
+#f_tri_d1 { 
+    width: 0; 
+    height: 0;
+    border-top: 120px solid #000000;
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(750px, -0px); 
+}
+
+#f_tri_d2 { 
+    width: 0; 
+    height: 0;
+    border-top: 120px solid #555555;
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(850px, 25px); 
+}
+
+#f_tri_s1 { 
+    width: 0; 
+    height: 0;
+    border-top: 70px solid #ffffff;
+    border-left: 45px solid transparent; 
+    border-right: 45px solid transparent;
+    transform: translate(800px, 60px);
+    position: absolute;
+}
+
+#f_tri_s2 { 
+    width: 0; 
+    height: 0;
+    border-top: 25px solid #000000;
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent;
+    transform: translate(800px, 85px);
+    position: absolute;
+}
+
+#f_tri_s3 { 
+    width: 0; 
+    height: 0;
+    border-top: 55px solid #ffffff;
+    border-left: 35px solid transparent; 
+    border-right: 35px solid transparent;
+    transform: translate(950px, -110px);
+    position: absolute;
+}
+
+#arrow_container{
+    transform: translate(550px, -200px);
+    position: absolute;
+}
+
+#arrow1{
+    border: solid #ffee00;
+    border-width: 0 30px 30px 0;
+    display: inline-block;
+    padding: 30px;
+    transform: rotate(-135deg) translate(-10px, 0px);
+    position: absolute;
+}
+
+#arrow2{
+    border: solid #ffee00;
+    border-width: 0 30px 30px 0;
+    display: inline-block;
+    padding: 30px;
+    transform: rotate(-135deg) translate(-55px, -45px);
+    position: absolute;
+}
+
+#github{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transform: translate(1000px, -30px);
+}
+
+#git_img{
+    width: 150px;
+    height: auto;
+}
+
+#git_img:hover{
+    transform: scale(1.1);
+}
