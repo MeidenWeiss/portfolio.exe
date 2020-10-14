@@ -8,7 +8,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
         <link rel= "stylesheet" type= "text/css" href= "css/index.css"/>
     </head>
     <body>
-        <div id="card"> Samuel A. Palacios </div>
+        <div id="card"> Portfolio.exe </div>
         <div id="nav_block">
             <div id="menu">
                 <a href="index.php"><div class="nav_box">Home</div></a>
