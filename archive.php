@@ -8,7 +8,7 @@
     </head>
     <body>
         <div id="notice">
-            Page under construction
+            Page not available
             <img src="images/sorry.JPG" id="img_sorry"/>
         </div>
     </body>
