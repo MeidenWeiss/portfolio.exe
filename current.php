@@ -22,6 +22,7 @@ $task = (isset($_GET['task']) && $_GET['task'] != '') ? $_GET['task'] : '';
                 <div class="sub_box">
                     Module 4
                     <a href="index.php?page=current&task=lt4.1"><div class="box_drop1">Learning Task 4.1</div></a>
+                    <a href="prelim.php"><div class="box_drop2">CLE1 (PRELIM)</div></a>
                 </div>
                 <div class="sub_box">
                     Module 5

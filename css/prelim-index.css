@@ -1,0 +1,1446 @@
+/* Monitor resolution during developemnt : 1280 x 800 */
+/* "* { border: 1px solid red; }" -- Outline all elements to check for weird spaces */
+html {
+    scroll-behavior: smooth;
+    cursor: url("../cursor/yellow.cur"), default;
+}
+
+/* ---- SCROLL BAR DESIGN ---- */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+}
+/* ---------------------------- */
+
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#bg_block {
+    position: sticky;
+    top: 0;
+}
+
+#bg_line1{
+    width: 110%; 
+    height: 100px;
+    background-color: #ffee00;
+    transform: rotate(165deg) translate(110px, -200px);
+    position: absolute;
+}
+
+#triangle_bg_1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 86.6px 50px 0 50px;
+    border-color: #ffee00 transparent transparent transparent;
+    transform: rotate(180deg) translate(-100px, 85px);
+}
+
+#triangle_bg_2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 43.3px 25px 0 25px;
+    border-color: #000000 transparent transparent transparent;
+    transform: rotate(180deg) translate(-90px, 155px);
+}
+
+#triangle_bg_3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 216.5px 125px 0 125px;
+    border-color: #ffee00 transparent transparent transparent;
+    transform: translate(80px, -360px);
+}
+
+#triangle_bg_4 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 303.1px 175px 0 175px;
+    border-color: #ffee00 transparent transparent transparent;
+    transform: rotate(180deg) translate(-220px, 660px);
+}
+
+#triangle_bg_5 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 259.8px 150px 0 150px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: translate(-150px, -290px);
+}
+
+#triangle_bg_6 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 519.6px 300px 0 300px;
+    border-color: #555555 transparent transparent transparent;
+    transform: translate(285px, -1180px);
+}
+
+#triangle_bg_7 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 216.5px 125px 0 125px;
+    border-color: #000000 transparent transparent transparent;
+    transform: translate(80px, -1450px);
+}
+
+#triangle_bg_8 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 216.5px 125px 0 125px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: translate(80px, -1720px);
+}
+
+#triangle_bg_9 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 216.5px 125px 0 125px;
+    border-color: #ffee00 transparent transparent transparent;
+    transform: translate(80px, -1990px);
+}
+
+#triangle_bg_10 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 65.0px 37.5px 0 37.5px;
+    border-color: #000000 transparent transparent transparent;
+    transform: translate(280px, -2185px);
+}
+
+#triangle_bg_11 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30.3px 17.5px 0 17.5px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: translate(300px, -2240px);
+}
+
+#triangle_bg_12 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 400px 692.8px 400px;
+    border-color: transparent transparent #000000 transparent;
+    transform: translate(600px, -2620px);
+}
+
+#triangle_bg_13 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 375px 649.5px 375px;
+    border-color: transparent transparent #ffee00 transparent;
+    transform: translate(625px, -3280px);
+}
+
+#triangle_bg_14 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 350px 606.2px 350px;
+    border-color: transparent transparent #ffffff transparent;
+    transform: translate(650px, -3900px);
+}
+
+#triangle_bg_15 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 173.2px 100px;
+    border-color: transparent transparent #ffee00 transparent;
+    transform: translate(125px, -4450px);
+}
+
+#triangle_bg_16 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 519.6px 300px 0 300px;
+    border-color: #ffee00 transparent transparent transparent;
+    transform: translate(285px, -4650px);
+}
+
+#triangle_bg_17 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 519.6px 300px 0 300px;
+    border-color: #000000 transparent transparent transparent;
+    transform: translate(285px, -5250px);
+}
+
+#triangle_bg_18 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 519.6px 300px 0 300px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: translate(285px, -5850px);
+}
+
+#triangle_bg_19 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 866.0px 500px 0 500px;
+    border-color: #ffee00 transparent transparent transparent;
+    transform: translate(910px, -6480px);
+}
+
+#triangle_bg_20 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 200px 346.4px 200px;
+    border-color: transparent transparent #555555 transparent;
+    transform: translate(1420px, -6820px);
+}
+
+/* --------------------------- LOGO --------------------------- */
+#box_logo{
+    width: 1000px; 
+    height: 280px; 
+    background-color: #ffffff;
+    border-right: 10px #ffee00 solid;
+    transform: translate(-10px, 50px);
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+#box_logo:hover{
+    transform: translate(10px, 50px) scale(1.1);
+    transition-duration: 1s;
+    cursor: url("../cursor/yellow.cur"), default;
+}
+
+#logo_text{
+    font-family: "Futuristic Armor";
+    font-size: 92;
+    letter-spacing: 6;
+    position: absolute;
+    transform: translate(120px, 120px);
+}
+
+@font-face { 
+    font-family: "Futuristic Armor";   
+    src: url("../fonts/futuristic_armor.otf"); 
+}
+
+/* ------------- LETTER A ------------- */
+#box_tri{
+    width: 90px;
+    height: 60px;
+    border-bottom: 5px #000000 solid;
+    border-left: 5px #000000 solid;
+    border-top: 5px #000000 solid;
+    background-color: #ffffff;
+    transform: translate(80px, 15px);
+    position: absolute;
+}
+
+#box_blinker{
+    width: 15px;
+    height: 35px;
+    background-color: #000000;
+    transform: translate(35px, 10px);
+}
+
+#up-triangle {
+    width: 0; 
+    height: 0; 
+    border-bottom: 120px solid #000000; 
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(100px, 35px);
+    float: left;
+}
+
+#small_box1{
+    width: 80px;
+    height: 70px;
+    background-color: #000000;
+    transform: translate(-75px, 50px);
+}
+
+#line_1{
+    width: 50px;
+    height: 5px;
+    background-color: #ffffff;
+    transform: translate(-5px, 30px);
+    transition-property: width;
+    transition-duration: 500ms;
+}
+
+#box_logo:hover #line_1{
+    width: 140px;
+    transition-duration: 500ms;
+}
+
+/* ------------- LETTER S ------------- */
+#circle_logo_1{ 
+    width: 130px;
+    height: 130px;
+    background-color: #000000;
+    border-radius: 70px;
+    transform: translate(250px, 30px);
+    transition-property: background-color;
+}
+
+#box_logo:hover #circle_logo_1{
+    background-color: #ffee00;
+}
+
+#circle_logo_white_1{ 
+    width: 0; 
+    height: 0; 
+    border-bottom: 80px solid #ffffff;
+    border-right: 170px solid transparent;
+    transform: translate(60px, -10px);
+}
+
+#circle_logo_white_2{ 
+    width: 0; 
+    height: 0; 
+    border-top: 100px solid #ffffff; 
+    border-left: 80px solid transparent;
+    transform: translate(-20px, -10px);
+}
+
+/* ------------- LETTER I ------------- */
+#box_i{
+    width: 50px; 
+    height: 130px; 
+    background-color: #000000;
+    transform: translate(400px, -90px);
+    overflow: hidden;
+}
+
+#line_i1{
+    width: 60px;
+    height: 5px;
+    transform: translate(-60px, 10px);
+    background-color: #ffffff;
+    transition-duration: 500ms;
+}
+
+#box_logo:hover #line_i1{
+    transform: translate(0px, 10px);
+    transition-duration: 500ms;
+    background-color: #ffffff;
+}
+
+#line_i2{
+    width: 60px;
+    height: 5px;
+    transform: translate(60px, 110px);
+    background-color: #ffffff;
+    transition-duration: 500ms;
+}
+
+#box_logo:hover #line_i2{
+    transform: translate(0px, 110px);
+    transition-duration: 500ms;
+    background-color: #ffffff;
+}
+
+/* ------------- LETTER M ------------- */
+#box_m{
+    width: 130px;
+    height: 130px;
+    background-color: #000000;
+    transform: translate(470px, -220px);
+    overflow: hidden;
+}
+
+#box_m1_triangle{
+    width: 0; 
+    height: 0;
+    border-top: 70px solid #ffffff;
+    border-left: 65px solid transparent; 
+    border-right: 65px solid transparent;
+}
+
+#box_m2_triangle{
+    width: 0; 
+    height: 0;
+    border-top: 70px solid #555555;
+    border-left: 65px solid transparent; 
+    border-right: 65px solid transparent;
+    transform: translate(0px, -50px);
+}
+
+#box_m3_triangle{
+    width: 0; 
+    height: 0;
+    border-top: 70px solid #ffee00;
+    border-left: 65px solid transparent; 
+    border-right: 65px solid transparent;
+    transform: translate(0px, -100px);
+}
+/* ------------- LETTER O ------------- */
+#circle_logo_2{ 
+    width: 130px;
+    height: 130px;
+    background-color: #000000;
+    border-radius: 70px;
+    transform: translate(620px, -345px);
+}
+
+#circle_inline{ 
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 70px;
+    transform: translate(5px, 5px) scale(0.0);
+    transition-duration: 500ms;
+}
+
+#box_logo:hover #circle_inline{
+    transform: translate(5px, 5px) scale(1.0);
+    transition-duration: 500ms;
+}
+
+/* ------------- LETTER V ------------- */
+#v_triangle{ 
+    width: 0; 
+    height: 0;
+    border-top: 120px solid #000000;
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(750px, -470px); 
+    overflow: hidden;
+}
+
+#v_fill{ 
+    width: 0; 
+    height: 0;
+    border-top: 120px solid #ffee00;
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(750px, -800px); 
+    transition-duration: 500ms;
+}
+
+#box_logo:hover #v_fill{
+    transform: translate(750px, -625px); 
+    transition-duration: 500ms;
+}
+
+/* ---------------- MENU BAR ---------------- */
+#menu_block {
+    position: sticky;
+    top: -150;
+    right: 0;
+    z-index: 1; /* keep on top of all elements */
+    transform: translate(15px, 0px);
+}
+
+#menu_container{
+    width: 700px;
+    height: 70px;
+    border-left: 10px #ffee00 solid;
+    transform: translate(0px, 150px);
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    float: right;
+}
+
+.menu_box{
+    width: 175px;
+    height: 70px;
+    line-height: 70px;
+    font-family: "Futuristic Armor";
+    font-size: 20;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu_box:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 10px 10px 50px 0px #0000004d;
+}
+
+.menu_box:active{
+    background-color: #ffee00;
+    transform: scale(0.9);
+}
+
+/* ---- CONTENT CONTAINERS ---- */
+#res_container{
+    width: 350px;
+    height: 1000px;
+    background-color: #ffffff;
+    border-top: 10px #ffee00 solid;
+    border-bottom: 10px #ffee00 solid;
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    transform: translate(100px, 450px);
+    margin-bottom: 150px;
+    overflow: hidden;
+}
+
+/* Fancy Divider */
+#mini_tri_0{
+    width: 0;
+    height: 0;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 0 37.5px 75px 37.5px;
+    border-color: transparent transparent #555555 transparent;
+    transform: rotate(220deg) translate(-80px, 5px);
+}
+
+#mini_tri_1{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 57.5px 55.0px 57.5px;
+    border-color: transparent transparent #000000 transparent;
+    position: absolute;
+    transform: rotate(25deg) translate(60px, -170px);
+}
+
+#mini_tri_2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 37.5px 65.0px 37.5px;
+    border-color: transparent transparent #ffee00 transparent;
+    position: absolute;
+    transform: rotate(45deg) translate(25px, -190px);
+}
+
+#mini_tri_2a{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 37.5px 65.0px 37.5px;
+    border-color: transparent transparent #ffffff transparent;
+    position: absolute;
+    transform: rotate(45deg) translate(25px, -187px) scale(0.7);
+}
+
+#mini_tri_3{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 37.5px 65.0px 37.5px;
+    border-color: transparent transparent #ffee00 transparent;
+    position: absolute;
+    transform: rotate(-5deg) translate(135px, -130px);
+}
+
+/* Research & Development --------------------------------------------- */
+#research{
+    width: 0px;
+    height: 0px;
+    transform: translate(500px, 410px);
+    position: absolute;
+}
+
+#res_title1{
+    font-family: "Futuristic Armor";
+    text-align: center;
+    font-size: 30;
+    margin-top: 50px;
+}
+
+#res_title2{
+    font-family: "Futuristic Armor";
+    text-align: center;
+    font-size: 30;
+    margin-top: 100px;
+}
+
+.image_title{
+    font-family: "Futuristic Armor";
+    text-align: center;
+    font-size: 30;
+    transform: translate(0px, 100px);
+}
+
+.text_p1{
+    font-family: "Trebuchet MS";
+    font-size: 16;
+    text-align: justify;
+    margin: 35px;
+    text-indent: 15%;
+}
+
+.text_p2{
+    font-family: "Trebuchet MS";
+    font-size: 16;
+    text-align: center;
+    margin: 35px;
+}
+
+/* RIGHT SIDE CONTENTS */
+#image_1{
+    width: 600px;
+    height: 350px;
+    background-color: #ffffffc0;
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    transform: translate(550px, -600px);
+}
+
+#image_2{
+    width: 600px;
+    height: 350px;
+    background-color: #ffffffc0;
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    transform: translate(550px, -500px);
+}
+
+#border_line_1a{
+    width: 100px;
+    height: 100px;
+    border-top: 25px solid #000000;
+    border-left: 25px solid #000000;
+    transform: scale(1.2);
+}
+
+#border_line_2a{
+    width: 100px;
+    height: 100px;
+    border-right: 25px solid #ffee00;
+    border-bottom: 25px solid #ffee00;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    transform: scale(1.2);
+}
+
+#border_line_1b{
+    width: 100px;
+    height: 100px;
+    border-top: 25px solid #ffee00;
+    border-left: 25px solid #ffee00;
+    transform: scale(1.2);
+}
+
+#border_line_2b{
+    width: 100px;
+    height: 100px;
+    border-right: 25px solid #000000;
+    border-bottom: 25px solid #000000;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    transform: scale(1.2);
+}
+
+/* ------------------------------------------------ FOOTER ---------------------------------------------------- */
+#about_us{
+    width: 100%;
+    height: 400px;
+    background-color: #ffee00;
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    transform: translateY(-300px);
+    overflow: hidden;
+}
+
+#f_content{
+    width: 600px;
+    height: 320px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    border-left: #000000 10px solid;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(50px, 25px);
+}
+
+#f_title{
+    font-family: "Futuristic Armor";
+    font-size: 32;
+}
+
+#f_tri_d1 { 
+    width: 0; 
+    height: 0;
+    border-top: 120px solid #000000;
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(950px, -0px); 
+}
+
+#f_tri_d2 { 
+    width: 0; 
+    height: 0;
+    border-top: 120px solid #555555;
+    border-left: 75px solid transparent; 
+    border-right: 75px solid transparent;
+    transform: translate(1090px, 50px); 
+}
+
+#f_tri_d3 { 
+    width: 0; 
+    height: 0;
+    border-top: 25px solid #ffffff;
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent;
+    transform: translate(1050px, -190px);
+    position: absolute;
+    animation: tri_effect0 5.0s ease-in-out infinite;
+}
+
+@keyframes tri_effect0{
+    0%, 100%{
+        opacity: 1;
+        transform: translate(1050px, -190px);
+    }
+    50%{
+        opacity: 0;
+        transform: translate(1050px, -190px) scale(1.5);
+    }
+}
+
+#f_tri_s1 { 
+    width: 0; 
+    height: 0;
+    border-top: 70px solid #ffffff;
+    border-left: 45px solid transparent; 
+    border-right: 45px solid transparent;
+    transform: translate(1010px, 60px);
+    position: absolute;
+}
+
+#f_tri_s2 { 
+    width: 0; 
+    height: 0;
+    border-top: 25px solid #000000;
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent;
+    transform: translate(1010px, 85px);
+    position: absolute;
+    animation: tri_effect1 10.0s ease-in-out infinite;
+}
+
+@keyframes tri_effect1{
+    0%, 100%{
+        opacity: 1;
+        transform: translate(1010px, 85px);
+    }
+    50%{
+        opacity: 0;
+        transform: translate(1010px, 85px) scale(1.5);
+    }
+}
+
+#f_tri_s3 { 
+    width: 0; 
+    height: 0;
+    border-top: 55px solid #ffffff;
+    border-left: 35px solid transparent; 
+    border-right: 35px solid transparent;
+    transform: translate(1050px, -90px);
+    position: absolute;
+    animation: tri_effect2 15.0s ease-in-out infinite;
+}
+
+@keyframes tri_effect2{
+    0%, 100%{
+        opacity: 1;
+        transform: translate(1050px, -90px);
+    }
+    50%{
+        opacity: 0;
+        transform: translate(1050px, -90px) scale(1.5);
+    }
+}
+
+/* Yellow Arrow */
+a#arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#arrow_container{
+    transform: translate(0px, -200px);
+    position: absolute;
+}
+
+#arrow_container:hover{
+    cursor: pointer;
+    animation: up_move 1.0s linear infinite;
+}
+
+@keyframes up_move{
+    50%{
+        transform: translate(0px, -220px);
+    }
+    100%{
+        transform: translate(0px, -200px);
+    }
+}
+
+#arrow1{
+    border: solid #ffee00;
+    border-width: 0 30px 30px 0;
+    display: inline-block;
+    padding: 30px;
+    transform: rotate(-135deg) translate(-10px, 0px);
+    position: absolute;
+    box-shadow: 6px 6px 10px -3px #0000004d;
+}
+
+#arrow2{
+    border: solid #ffee00;
+    border-width: 0 30px 30px 0;
+    display: inline-block;
+    padding: 30px;
+    transform: rotate(-135deg) translate(-55px, -45px);
+    position: absolute;
+    box-shadow: 6px 6px 10px -3px #0000004d;
+}
+
+/* Social Icons */
+.social-icons{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#github{
+    width: 70px;
+    height: 70px;
+    font-size: 60;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    background-color: #000000;
+    border: 2px solid #000000;
+    transition-duration: 500ms;
+    transition-property: background-color, border-radius, color, border;
+    transform: translate(740px, -170px);
+}
+
+i.fa-github{
+    transform: translate(0px, 7px);
+}
+
+#github:hover{
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transform: translate(740px, -170px);
+    color: #000000;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+/* CODEPEN */
+#codepen{
+    width: 70px;
+    height: 70px;
+    font-size: 50;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    background-color: #000000;
+    border: 2px solid #000000;
+    transition-duration: 500ms;
+    transition-property: background-color, border-radius, color, border;
+    transform: translate(740px, -70px);
+}
+
+i.fa-codepen{
+    transform: translate(1px, 11px);
+}
+
+#codepen:hover{
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transform: translate(740px, -70px);
+    color: #000000;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+/* REDDIT */
+#reddit{
+    width: 70px;
+    height: 70px;
+    font-size: 50;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    background-color: #000000;
+    border: 2px solid #000000;
+    transition-duration: 500ms;
+    transition-property: background-color, border-radius, color, border;
+    transform: translate(740px, 30px);
+}
+
+i.fa-reddit{
+    transform: translate(1px, 10px);
+}
+
+#reddit:hover{
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transform: translate(740px, 30px);
+    color: #000000;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+/* FACEBOOK */
+#facebook{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    background-color: #000000;
+    border: 2px solid #000000;
+    transition-duration: 500ms;
+    transition-property: background-color, border-radius, color, border;
+    transform: translate(840px, -170px);
+}
+
+#facebook:hover{
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transform: translate(840px, -170px);
+    color: #000000;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+.fb_icon{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(2.7) translate(14px, 12px);
+    width: 20px;
+    height: 20px
+}
+
+.fb_icon::after, .fb_icon::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+
+.fb_icon::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+
+.fb_icon::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}
+
+/* GOOGLE */
+#google{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    background-color: #000000;
+    border: 2px solid #000000;
+    transition-duration: 500ms;
+    transition-property: background-color, border-radius, color, border;
+    transform: translate(840px, -70px);
+}
+
+#google:hover{
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transform: translate(840px, -70px);
+    color: #000000;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+.google_icon, .google_icon::before {
+    box-sizing: border-box;
+    display: block
+}
+
+.google_icon {
+    position: relative;
+    transform: scale(2.0) translate(13px, 13px);
+    width: 20px;
+    height: 20px;
+    border: 4px solid;
+    border-right-color: transparent;
+    border-radius: 22px
+}
+
+.google_icon::before {
+    content: "";
+    position: absolute;
+    border-top: 4px solid;
+    border-right: 4px solid;
+    border-bottom: 4px solid;
+    border-radius: 0 0 10px 0;
+    width: 10px;
+    height: 12px;
+    right: -4px;
+    bottom: -4px
+}
+
+/* Youtube */
+#youtube{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    background-color: #000000;
+    border: 2px solid #000000;
+    transition-duration: 500ms;
+    transition-property: background-color, border-radius, color, border;
+    transform: translate(840px, 30px);
+}
+
+#youtube:hover{
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transform: translate(840px, 30px);
+    color: #000000;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+.yt_icon {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(2.5) translate(11px, 12px);
+    width: 16px;
+    height: 10px;
+    box-shadow: 0 0 0 2px;
+    border-radius:
+        15px 15px 15px 15px /
+        45px 45px 45px 45px
+}
+
+.yt_icon::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 7px;
+    top: 2px;
+    border-left: 4px solid currentColor;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent
+}
+
+/* ----- VECTOR CONTENTS ---- */
+/* Pyramid */
+#object_1{
+    position: absolute;
+    transform: translate(200px , -150px);
+}
+
+#pyramid{
+    width: 100px;
+    height: 200px;
+    position: relative;
+    margin: 50px;
+}
+
+#pyramid::before, #pyramid::after{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 50px solid;
+    position: absolute;
+}
+
+#pyramid::before{
+    border-color: transparent transparent #ff0000 transparent;
+    transform: scaleY(2) skewY(-40deg) rotate(45deg);
+}
+
+#pyramid::after{
+    border-color: transparent transparent #b60000 transparent;
+    transform: scaleY(2) skewY(40deg) rotate(-45deg);
+}
+
+#obj_t1{
+    font-family: "Futuristic Armor";
+    font-size: 20;
+    transform: translate(375px, -50px);
+    position: absolute;
+}
+
+#obj_t2{
+    font-family: "Futuristic Armor";
+    font-size: 150;
+    transform: translate(155px, -200px);
+    position: absolute;
+}
+
+/* Polyester */
+#shape-cube {
+    width: 50px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: rotateX(76deg) rotateY(0deg) rotateZ(110deg) translate(-250px, -200px);
+    position: absolute;
+}
+
+#shape-cube .poly {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#shape-cube .top {
+    background: #5580f7;
+    transform: rotateX(0deg) translateZ(100px);
+}
+
+#shape-cube .front {
+    background: #4776cc;
+    transform: rotateY(90deg) rotatez(-90deg) translateZ(50px) translateX(-100px);
+    transform-origin: 0 100%;
+    width: 200px;
+    height: 100px;
+}
+
+#shape-cube .right {
+    background: #85a9f8;
+    transform: rotateX(90deg) rotatez(180deg) translateY(-50px) translateZ(50px);
+    height: 100px;
+}
+
+#obj2_p1{
+    font-family: "Futuristic Armor";
+    font-size: 14;
+    transform: translate(50px, -50px);
+    position: absolute;
+}
+
+#obj2_p2{
+    font-family: "Futuristic Armor";
+    font-size: 14;
+    transform: translate(50px, -15px);
+    position: absolute;
+}
+
+#obj2_p3{
+    font-family: "Futuristic Armor";
+    font-size: 14;
+    transform: translate(50px, 20px);
+    position: absolute;
+}
+
+#obj2_p4{
+    font-family: "Futuristic Armor";
+    font-size: 150;
+    transform: translate(430px, -200px);
+    position: absolute;
+}
+
+/* Partners --------------------------------------------- */
+#partners{
+    width: 0px;
+    height: 0px;
+    transform: translate(500px, -450px);
+    position: absolute;
+    overflow: hidden;
+}
+
+#partners_container{
+    width: 1040px;
+    height: 300px;
+    background-color: #ffffff;
+    border-left: 10px #ffee00 solid;
+    border-right: 10px #ffee00 solid;
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    transform: translate(100px, -300px);
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+#part_title{
+    font-family: "Futuristic Armor";
+    text-align: center;
+    font-size: 30;
+}
+
+/* Partner Logos */
+/* RATH */
+#rath{
+    font-family: "Montalban";
+    font-size: 75;
+    position: absolute;
+    transform: translate(-299px, -120px);
+}
+
+#rath_tri {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 75px 0 75px 300px;
+    transform: translate(100px, 10px);
+    border-color: transparent transparent transparent #cb5aff;
+}
+
+@font-face { 
+    font-family: "Montalban";   
+    src: url("../fonts/montalban.otf");
+}
+
+/* ACROSS */
+#across{
+    font-family: "Earth Orbiter";
+    font-size: 55;
+    position: absolute;
+}
+
+#across_logo{
+    transform: translate(450px, -140px);
+}
+
+#across_line1{
+    width: 150px;
+    height: 20px;
+    border: 1px solid #000000;
+    position: absolute;
+    transform: rotate(-45deg) translate(-45px, 40px);
+}
+
+#across_line2{
+    width: 150px;
+    height: 20px;
+    border: 1px solid #000000;
+    position: absolute;
+    transform: rotate(-45deg) translate(10px, 100px);
+}
+
+#across_box{
+    width: 235px;
+    height: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(0px, 45px);
+}
+
+@font-face { 
+    font-family: "Earth Ortibter";   
+    src: url("../fonts/earthorbiter.ttf");
+}
+
+/* TETRA */
+#tetra_logo{
+    transform: translate(800px, -270px);
+}
+
+#tetra{
+    font-family: "Tesla";
+    font-size: 150;
+    position: absolute;
+    color: #ff0000;
+}
+
+#tetra_txt{
+    font-family: "Trebuchet MS";
+    position: absolute;
+    transform: translate(0px, 220px);
+}
+
+@font-face { 
+    font-family: "Tesla";   
+    src: url("../fonts/tesla.ttf");
+}
+
+/* RHINE LAB */
+#infinity{
+    position: absolute;
+    width: 212px;
+    height: 100px;
+    box-sizing: content-box;
+    transform: translate(1050px, -130px);
+}
+
+#infinity:before, #infinity:after{
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid #555555;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+}
+
+#infinity:after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
+    background-color: #000000;
+}
+
+#line_ver{
+    width: 10px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 30px;
+    transform: translate(1095px, -95px);
+}
+
+#line_hor{
+    width: 10px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 30px;
+    transform: rotate(90deg) translate(-125px, -1095px);
+    position: absolute;
+}
+
+#line_hor2{
+    width: 10px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    transform: rotate(90deg) translate(-125px, -1205px);
+    position: absolute;
+}
+
+#rhine_txt{
+    font-family: "Times New Roman";
+    font-size: 16;
+    letter-spacing: 10px;
+    transform: translate(5px, 100px);
+    text-shadow: 4px 4px 8px #0000004d;
+    position: absolute;
+}
+
+/* FROSTBITE */
+#frost_txt{
+    font-family: "Tesla";
+    font-size: 55;
+    position: absolute;
+    transform: translate(1400px, -200px);
+    text-shadow: 4px 4px 8px #0000004d;
+}
+
+#bite_txt{
+    font-family: "Tesla";
+    font-size: 55;
+    position: absolute;
+    transform: translate(1400px, -150px);
+    text-shadow: 4px 4px 8px #0000004d;
+}
+
+#frost_shape1{
+    width: 200px;
+    height: 200px;
+    background-color: 4776cc;
+    transform: translate(1460px, -195px);
+    position: absolute;
+    clip-path: polygon(67% 31%, 16% 31%, 71% 45%, 0 81%, 86% 56%, 86% 25%, 37% 7%);
+}
+
+/* SOL */
+#sunline_left{
+    width: 70px;
+    height: 70px;
+    border-bottom: #000000 3px solid;
+    background-color: #ffa500;
+    transform: rotate(-90deg) translate(155px, 1750px);
+    clip-path: polygon(50% 0%, 30% 100%, 70% 100%);
+    position: absolute;
+}
+
+#sunline_right{
+    width: 70px;
+    height: 70px;
+    border-bottom: #000000 3px solid;
+    background-color: #ffa500;
+    transform: rotate(90deg) translate(-155px, -1935px);
+    clip-path: polygon(50% 0%, 30% 100%, 70% 100%);
+    position: absolute;
+}
+
+#sol_txt{
+    font-family: "Neuropol";
+    font-size: 35;
+    color: #ffa500;
+    transform: translate(1830px, -170px);
+    text-decoration: underline #000000;
+    position: absolute;
+}
+
+@font-face { 
+    font-family: "Neuropol";   
+    src: url("../fonts/neuropol.ttf");
+}
+
+/* Partner Logo Animations */
+#logo_container{
+    animation: swipe_left 40s ease-in-out infinite;
+    animation-delay: 500ms;
+}
+
+#logo_container:hover{
+    animation-play-state: paused;
+}
+
+@keyframes swipe_left{
+    0%{
+        transform: translate(0px, 0px);
+    }
+    50%{
+        transform: translate(-1000px, 0px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
