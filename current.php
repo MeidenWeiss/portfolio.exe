@@ -59,6 +59,9 @@ $task = (isset($_GET['task']) && $_GET['task'] != '') ? $_GET['task'] : '';
                 case 'lt6.1':
                     require_once('learningtask6_1.html');
                 break;
+                case 'lt6.2':
+                    require_once('learningtask6_2.html');
+                break;
                 default: 
                     // Do nothing
                 break;

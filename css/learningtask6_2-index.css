@@ -1,0 +1,52 @@
+svg{
+    background-color: #6495ed;
+}
+
+#link{
+    position: absolute;
+    font-family: "Trebuchet MS";
+    text-decoration: underline;
+    color: #ff0000;
+    transform: translate(350px, 10px);
+}
+
+.fishy{
+    animation: swim 10s ease-in-out infinite;
+}
+
+@keyframes swim{
+    0%{
+        transform: translate(50px, 0px);
+    }
+    25%{
+        transform: translate(-5px, 5px) rotate(1deg);
+    }
+    50%{
+        transform: translate(5px, 10px) rotate(-1deg);
+    }
+    75%{
+        transform: translate(-10px, 20px);
+    }
+    100%{
+        transform: translate(50px, 0px);
+    }
+}
+
+.seaweed{
+    animation: swing 10s ease-in-out infinite;
+}
+
+@keyframes swing{
+    0%{
+        transform: skew(0deg);
+    }
+    25%{
+        transform: skew(0.5deg);
+    }
+    50%{
+        transform: skew(-0.5deg);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
