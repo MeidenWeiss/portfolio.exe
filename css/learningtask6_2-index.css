@@ -7,7 +7,7 @@ svg{
     font-family: "Trebuchet MS";
     text-decoration: underline;
     color: #ff0000;
-    transform: translate(350px, 10px);
+    transform: translate(150px, 10px);
 }
 
 .fishy{
@@ -16,19 +16,19 @@ svg{
 
 @keyframes swim{
     0%{
-        transform: translate(50px, 0px);
+        transform: translate(50px, 0px) scale(0.5);
     }
     25%{
-        transform: translate(-5px, 5px) rotate(1deg);
+        transform: translate(-5px, 5px) rotate(1deg) scale(0.5);
     }
     50%{
-        transform: translate(5px, 10px) rotate(-1deg);
+        transform: translate(5px, 10px) rotate(-1deg) scale(0.5);
     }
     75%{
-        transform: translate(-10px, 20px);
+        transform: translate(-10px, 20px) scale(0.5);
     }
     100%{
-        transform: translate(50px, 0px);
+        transform: translate(50px, 0px) scale(0.5);
     }
 }
 
@@ -38,15 +38,15 @@ svg{
 
 @keyframes swing{
     0%{
-        transform: skew(0deg);
+        transform: skew(0deg) scale(0.5);
     }
     25%{
-        transform: skew(0.5deg);
+        transform: skew(0.5deg) scale(0.5);
     }
     50%{
-        transform: skew(-0.5deg);
+        transform: skew(-0.5deg) scale(0.5);
     }
     100%{
-        transform: skew(0deg);
+        transform: skew(0deg) scale(0.5);
     }
 }
