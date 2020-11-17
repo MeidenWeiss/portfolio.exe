@@ -1,7 +1,9 @@
+/* Comment out #container and #garden to enable zoom-in and zoom-out scroll*/
+
 #container{
-    overflow: hidden;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 #garden{
