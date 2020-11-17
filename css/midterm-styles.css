@@ -1,0 +1,68 @@
+body{
+    overflow: hidden;
+}
+
+#fence_1{
+    position: absolute;
+    transform: translate(-50px, 50px);
+}
+
+#fence_2{
+    position: absolute;
+    transform: translate(490px, 50px) scaleX(-1);
+}
+
+#fence_3{
+    position: absolute;
+    transform: translate(1010px, 50px);
+}
+
+#bush_1{
+    position: absolute;
+    transform: translate(-100px, 150px);
+}
+
+#bush_1-5{
+    position: absolute;
+    transform: translate(350px, 150px);
+}
+
+#bush_2{
+    position: absolute;
+    transform: translate(320px, 140px);
+}
+
+#bush_2-5{
+    position: absolute;
+    transform: translate(1000px, 100px) scaleX(-1);
+}
+
+#bush_3{
+    position: absolute;
+    transform: translate(750px, 140px) scaleX(-1);
+}
+
+#bush_3-5{
+    position: absolute;
+    transform: translate(1250px, 140px) scaleX(-1);
+}
+
+#furniture{
+    position: absolute;
+    transform: scale(1.5) translate(400px, 300px);
+}
+
+#bottle_flowers{
+    position: absolute;
+    transform: translate(690px, 330px);
+}
+
+#box_flowers{
+    position: absolute;
+    transform: translate(500px, 500px);
+}
+
+#violet{
+    position: absolute;
+    transform: translate(650px, 120px);
+}
