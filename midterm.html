@@ -7,8 +7,10 @@
         <script>
             window.onload = function() {
                 document.getElementById('loading_screen').style.opacity = 0;
-                document.getElementById('loading_screen').style.top = -300;
-                document.getElementById('loading_screen').style.height = 0;
+                var x = document.getElementById('loading_screen');
+                if (x.style.transition == 0) {
+                    setTimeout(function(){ x.style.zIndex = -1; }, 3000);
+                }
             }
         </script>
         <div id="container">
@@ -34,7 +36,7 @@
             <div id="loading_screen">
                 <div id="wrapper">
                     <object type="image/svg+xml" data="svg/floom_logo.svg" id="floom_logo"></object>
-                    <h2 id="load_text">loading garden . . .</h2>
+                    <h2 id="load_text">loading garden</h2>
                     <object type="image/svg+xml" data="svg/bottled_flowers.svg" id="flowers"></object>
                 </div>
             </div>
