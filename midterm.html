@@ -4,8 +4,40 @@
         <link rel= "stylesheet" type= "text/css" href= "css/midterm-styles.css"/>
     </head>
     <body>
+        <script>
+            window.onload = function() {
+                document.getElementById('loading_screen').style.opacity = 0;
+                document.getElementById('loading_screen').style.top = -300;
+                document.getElementById('loading_screen').style.height = 0;
+            }
+        </script>
         <div id="container">
             <object type="image/svg+xml" data="svg/garden.svg" id="garden"></object>
+            <div id="box_leaf_1">
+                <object type="image/svg+xml" data="svg/leaf_2.svg"></object>
+            </div>
+            <div id="box_leaf_2">
+                <object type="image/svg+xml" data="svg/leaf_2.svg"></object>
+            </div>
+            <div id="box_leaf_3">
+                <object type="image/svg+xml" data="svg/leaf_2.svg"></object>
+            </div>
+            <div id="box_leaf_4">
+                <object type="image/svg+xml" data="svg/leaf_2.svg"></object>
+            </div>
+            <div id="box_leaf_5">
+                <object type="image/svg+xml" data="svg/leaf_2.svg"></object>
+            </div>
+            <div id="box_leaf_6">
+                <object type="image/svg+xml" data="svg/leaf_2.svg"></object>
+            </div>
+            <div id="loading_screen">
+                <div id="wrapper">
+                    <object type="image/svg+xml" data="svg/floom_logo.svg" id="floom_logo"></object>
+                    <h2 id="load_text">loading garden . . .</h2>
+                    <object type="image/svg+xml" data="svg/bottled_flowers.svg" id="flowers"></object>
+                </div>
+            </div>
         </div>
     </body>
 </html>

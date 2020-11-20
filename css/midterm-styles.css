@@ -1,12 +1,379 @@
-/* Comment out #container and #garden to enable zoom-in and zoom-out scroll*/
-
+/* Comment out #container and #garden to enable zoom-in and zoom-out with scrollbars*/
 #container{
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-color: white;
 }
 
 #garden{
     max-width: 100%;
     height: auto;
+}
+
+#box_leaf_1{
+    position: absolute;
+    width: auto;
+    height: auto;
+    transform: scale(0.95) skew(0deg) rotate(30deg);
+    left: 60px;
+    top: -75px;
+    animation: fall 12s infinite linear;
+}
+
+#box_leaf_1:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fall{
+    0%{
+        transform: scale(0.95) skew(0deg) rotate(30deg);
+        left: 60px;
+        top: -75px;
+    }
+    15%{
+        transform: scale(0.95) skew(5deg) rotate(50deg);
+        left: 100px;
+        top: 0px;
+    }
+    25%{
+        transform: scale(0.95) skew(10deg) rotate(30deg);
+        left: 125px;
+        top: 50px;
+    }
+    50%{
+        transform: scale(0.95) skew(20deg) rotate(50deg);
+        left: 75px;
+        top: 150px;
+    }
+    75%{
+        transform: scale(0.95) skew(10deg) rotate(100deg);
+        left: 50px;
+        top: 225px;
+        opacity: 90%;
+    }
+    90%{
+        transform: scale(0.95) skew(10deg) rotate(75deg);
+        left: 25px;
+        top: 300px;
+        opacity: 50%;
+    }
+    100%{
+        transform: scale(0.95) skew(20deg) rotate(50deg);
+        left: 50px;
+        top: 375px;
+        opacity: 0%;
+    }
+}
+
+#box_leaf_2{
+    position: absolute;
+    width: auto;
+    height: auto;
+    transform: scale(0.95) skew(0deg) rotate(80deg);
+    left: 400px;
+    top: -75px;
+    animation: fall_2 10s infinite linear;
+}
+
+#box_leaf_2:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fall_2{
+    0%{
+        transform: scale(0.95) skew(0deg) rotate(90deg);
+        left: 400px;
+        top: -75px;
+    }
+    15%{
+        transform: scale(0.95) skew(5deg) rotate(110deg);
+        left: 325px;
+        top: 0px;
+    }
+    25%{
+        transform: scale(0.95) skew(10deg) rotate(130deg);
+        left: 360px;
+        top: 50px;
+    }
+    50%{
+        transform: scale(0.95) skew(20deg) rotate(150deg);
+        left: 400px;
+        top: 125px;
+    }
+    75%{
+        transform: scale(0.95) skew(10deg) rotate(175deg);
+        left: 450px;
+        top: 200px;
+        opacity: 90%;
+    }
+    90%{
+        transform: scale(0.95) skew(10deg) rotate(190deg);
+        left: 475px;
+        top: 275px;
+        opacity: 50%;
+    }
+    100%{
+        transform: scale(0.95) skew(20deg) rotate(210deg);
+        left: 450px;
+        top: 350px;
+        opacity: 0%;
+    }
+}
+
+#box_leaf_3{
+    position: absolute;
+    width: auto;
+    height: auto;
+    transform: scale(0.30) skew(0deg) rotate(30deg);
+    left: 800px;
+    top: -75px;
+    animation: fall_3 12s infinite linear;
+}
+
+#box_leaf_3:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fall_3{
+    0%{
+        transform: scale(0.30) skew(0deg) rotate(30deg);
+        left: 800px;
+        top: -75px;
+    }
+    15%{
+        transform: scale(0.30) skew(5deg) rotate(50deg);
+        left: 725px;
+        top: 0px;
+    }
+    25%{
+        transform: scale(0.30) skew(10deg) rotate(80deg);
+        left: 750px;
+        top: 50px;
+    }
+    50%{
+        transform: scale(0.30) skew(20deg) rotate(110deg);
+        left: 725px;
+        top: 125px;
+    }
+    75%{
+        transform: scale(0.30) skew(10deg) rotate(75deg);
+        left: 750px;
+        top: 200px;
+        opacity: 90%;
+    }
+    90%{
+        transform: scale(0.30) skew(10deg) rotate(50deg);
+        left: 775px;
+        top: 275px;
+        opacity: 50%;
+    }
+    100%{
+        transform: scale(0.30) skew(20deg) rotate(30deg);
+        left: 750px;
+        top: 350px;
+        opacity: 0%;
+    }
+}
+
+#box_leaf_4{
+    position: absolute;
+    width: auto;
+    height: auto;
+    transform: scaleX(-1) skew(0deg) rotate(30deg);
+    left: 1100px;
+    top: -75px;
+    animation: fall_4 14s infinite linear;
+}
+
+#box_leaf_4:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fall_4{
+    0%{
+        transform: scaleX(-1) skew(0deg) rotate(30deg);
+        left: 1000px;
+        top: -75px;
+    }
+    15%{
+        transform: scaleX(-1) skew(5deg) rotate(50deg);
+        left: 1000px;
+        top: 0px;
+    }
+    25%{
+        transform: scaleX(-1) skew(10deg) rotate(30deg);
+        left: 1050px;
+        top: 50px;
+    }
+    50%{
+        transform: scaleX(-1) skew(20deg) rotate(50deg);
+        left: 1025px;
+        top: 150px;
+    }
+    75%{
+        transform: scaleX(-1) skew(10deg) rotate(100deg);
+        left: 975px;
+        top: 225px;
+        opacity: 90%;
+    }
+    90%{
+        transform: scaleX(-1) skew(10deg) rotate(75deg);
+        left: 950px;
+        top: 300px;
+        opacity: 50%;
+    }
+    100%{
+        transform: scaleX(-1) skew(20deg) rotate(50deg);
+        left: 925px;
+        top: 375px;
+        opacity: 0%;
+    }
+}
+
+#box_leaf_5{
+    position: absolute;
+    width: auto;
+    height: auto;
+    transform: scale(0.55) skew(0deg) rotate(80deg);
+    left: 800px;
+    top: -75px;
+    animation: fall_5 15s infinite linear;
+}
+
+#box_leaf_5:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fall_5{
+    0%{
+        transform: scale(0.55) skew(0deg) rotate(90deg);
+        left: 800px;
+        top: -75px;
+    }
+    15%{
+        transform: scale(0.55) skew(5deg) rotate(110deg);
+        left: 825px;
+        top: 0px;
+    }
+    25%{
+        transform: scale(0.55) skew(10deg) rotate(130deg);
+        left: 860px;
+        top: 50px;
+    }
+    50%{
+        transform: scale(0.55) skew(20deg) rotate(150deg);
+        left: 800px;
+        top: 125px;
+    }
+    75%{
+        transform: scale(0.55) skew(10deg) rotate(175deg);
+        left: 850px;
+        top: 200px;
+        opacity: 90%;
+    }
+    90%{
+        transform: scale(0.55) skew(10deg) rotate(190deg);
+        left: 875px;
+        top: 275px;
+        opacity: 50%;
+    }
+    100%{
+        transform: scale(0.55) skew(20deg) rotate(210deg);
+        left: 850px;
+        top: 350px;
+        opacity: 0%;
+    }
+}
+
+#box_leaf_6{
+    position: absolute;
+    width: auto;
+    height: auto;
+    transform: scaleX(-1) scale(0.40) skew(0deg) rotate(30deg);
+    left: 200px;
+    top: -75px;
+    animation: fall_6 15s infinite linear;
+}
+
+#box_leaf_6:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fall_6{
+    0%{
+        transform: scaleX(-1) scale(0.40) skew(0deg) rotate(30deg);
+        left: 200px;
+        top: -75px;
+    }
+    15%{
+        transform: scaleX(-1) scale(0.40) skew(5deg) rotate(50deg);
+        left: 225px;
+        top: 0px;
+    }
+    25%{
+        transform: scaleX(-1) scale(0.40) skew(10deg) rotate(30deg);
+        left: 250px;
+        top: 50px;
+    }
+    50%{
+        transform: scaleX(-1) scale(0.40) skew(20deg) rotate(50deg);
+        left: 225px;
+        top: 150px;
+    }
+    75%{
+        transform: scaleX(-1) scale(0.45) skew(10deg) rotate(100deg);
+        left: 275px;
+        top: 225px;
+        opacity: 90%;
+    }
+    90%{
+        transform: scaleX(-1) scale(0.40) skew(10deg) rotate(75deg);
+        left: 250px;
+        top: 300px;
+        opacity: 50%;
+    }
+    100%{
+        transform: scaleX(-1) scale(0.40) skew(20deg) rotate(50deg);
+        left: 225px;
+        top: 375px;
+        opacity: 0%;
+    }
+}
+
+#loading_screen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    opacity: 100%;
+    transition: 3.5s ease-in-out;
+}
+
+#wrapper{
+    position: absolute;
+    top: 25%;
+    transform: scale(2.0);
+}
+
+#floom_logo{
+    /* EMPTY */
+}
+
+#load_text{
+    font-family: 'Architects Daugther';
+}
+
+@font-face{
+    font-family: 'Architects Daugther';
+    src: url('../fonts/ArchitectsDaughter.ttf');
+}
+
+#flowers{
+    transform: scale(0.7);
 }
