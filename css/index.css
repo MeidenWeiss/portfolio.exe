@@ -34,7 +34,7 @@ body{
 
 #card{
     position: absolute;
-    width: 540px;
+    width: 440px;
     height: 70px;
     border-bottom: 5px #ff3d3d solid;
     box-shadow: 10px 10px 50px 0px #0000004d;
@@ -56,7 +56,7 @@ body{
 }
 
 #menu{
-    width: 540px;
+    width: 710px;
     height: 70px;
     border-left: 5px #fffc3d solid;
     box-shadow: 10px 10px 50px 0px #0000004d;

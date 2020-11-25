@@ -1,4 +1,4 @@
-var canvas = document.getElementById("card");
+var canvas = document.getElementById("mastercard");
 var context = canvas.getContext("2d");
 
 context.save();

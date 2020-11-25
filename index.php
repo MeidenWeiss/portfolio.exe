@@ -8,22 +8,26 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
         <link rel= "stylesheet" type= "text/css" href= "css/index.css"/>
     </head>
     <body>
-        <div id="card"> Portfolio.exe </div>
+        <div id="card"> Samuel Palacios </div>
         <div id="nav_block">
             <div id="menu">
                 <a href="index.php"><div class="nav_box">Home</div></a>
-                <a href="index.php?page=archive"><div class="nav_box">Archive</div></a>
-                <a href="index.php?page=current"><div class="nav_box">2020 - 2021</div></a>
+                <a href="index.php?page=css"><div class="nav_box">CSS</div></a>
+                <a href="index.php?page=svg"><div class="nav_box">SVG</div></a>
+                <a href="index.php?page=js"><div class="nav_box">JS</div></a>
             </div>
         </div>
         <div id="content_area">
             <?php
             switch($page){
-                case 'archive':
-                    require_once('archive.php');
+                case 'css':
+                    require_once('css_page.php');
                 break;
-                case 'current':
-                    require_once('current.php');
+                case 'svg':
+                    require_once('svg_page.php');
+                break;
+                case 'js':
+                    require_once('js_page.php');
                 break;
                 default: 
                     require_once('index.php');
