@@ -11,17 +11,17 @@ $task = (isset($_GET['task']) && $_GET['task'] != '') ? $_GET['task'] : '';
             <div id="sub_menu">
                 <div class="sub_box">
                     Module 2
-                    <a href="index.php?page=svg&task=lt2.2"><div class="box_drop1">Learning Task 2.2</div></a>
-                    <a href="index.php?page=svg&task=lt2.3"><div class="box_drop2">Learning Task 2.3</div></a>
+                    <a href="index.php?page=css&task=lt2.2"><div class="box_drop1">Learning Task 2.2</div></a>
+                    <a href="index.php?page=css&task=lt2.3"><div class="box_drop2">Learning Task 2.3</div></a>
                 </div>
                 <div class="sub_box">
                     Module 3
-                    <a href="index.php?page=svg&task=lt3.2"><div class="box_drop1">Learning Task 3.2</div></a>
-                    <a href="index.php?page=svg&task=lt3.3"><div class="box_drop2">Learning Task 3.3</div></a>
+                    <a href="index.php?page=css&task=lt3.2"><div class="box_drop1">Learning Task 3.2</div></a>
+                    <a href="index.php?page=css&task=lt3.3"><div class="box_drop2">Learning Task 3.3</div></a>
                 </div>
                 <div class="sub_box">
                     Module 4
-                    <a href="index.php?page=svg&task=lt4.1"><div class="box_drop1">Learning Task 4.1</div></a>
+                    <a href="index.php?page=css&task=lt4.1"><div class="box_drop1">Learning Task 4.1</div></a>
                     <a href="prelim.php"><div class="box_drop2">CLE1 (PRELIM)</div></a>
                 </div>
             </div>
