@@ -1,0 +1,188 @@
+/* mastercard */
+#mastercard_canvas{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+#card{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+#mc_text{
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    left: 30px;
+    top: 140px;
+}
+
+/* AMD */
+#amd_canvas{
+    position: absolute;
+    left: 220px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+#amd{
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 60px;
+}
+
+#amd_text{
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    left: 80px;
+    top: 140px;
+}
+
+/* Frostbite */
+#frost_canvas{
+    position: absolute;
+    left: 432px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+#frost{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+
+#frost_text{
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    left: 50px;
+    top: 140px;
+}
+
+/* Android */
+#android_canvas{
+    position: absolute;
+    left: 645px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+#android{
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: -50px;
+}
+
+#android_text{
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    left: 55px;
+    top: 140px;
+}
+
+/* Radiation */
+#radiation_canvas{
+    position: absolute;
+    top: 220px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #ffc400;
+}
+
+#radiation{
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+
+#radiation_text{
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    left: 55px;
+    top: 140px;
+}
+
+/* Olympics */
+#olympics_canvas{
+    position: absolute;
+    top: 220px;
+    left: 220px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+#olympics{
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: 40px;
+}
+
+#olympics_text{
+    position: absolute;
+    font-family: 'Trebuchet MS';
+    left: 55px;
+    top: 140px;
+}
+
+/* Assassin */
+#assassin_canvas{
+    position: absolute;
+    top: 220px;
+    left: 432px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+#assassin{
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+#assassin_text{
+    position: absolute;
+    font-size: 14pt;
+    font-family: 'Trebuchet MS';
+    left: 25px;
+    top: 150px;
+}
+
+/* Windows */
+#windows_canvas{
+    position: absolute;
+    top: 220px;
+    left: 645px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+#windows{
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+
+#windows_text{
+    position: absolute;
+    font-size: 14pt;
+    font-family: 'Trebuchet MS';
+    left: 60px;
+    top: 150px;
+}
