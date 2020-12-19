@@ -29,7 +29,7 @@ a{
     font-size: 18pt;
     text-align: center;
     background-color: #ffffff;
-    border-right: 5px #403dff solid;
+    border-right: 5px #ff943d solid;
     color: #000000;
     transition: 0.5s;
 }
@@ -114,4 +114,168 @@ a{
 .code_title{
     text-align: center;
     font-family: "Architects Daugther";
+}
+
+#text_css{
+    font-family: "Trebuchet MS";
+    font-size: 150pt;
+    left: 475px;
+    bottom: 75px;
+    font-weight: normal;
+    position: fixed;
+}
+
+#text_canvas{
+    font-family: "Trebuchet MS";
+    font-size: 150pt;
+    left: 300px;
+    bottom: 75px;
+    font-weight: normal;
+    position: fixed;
+}
+
+#text_home{
+    font-family: "Trebuchet MS";
+    font-size: 150pt;
+    left: 375px;
+    bottom: 75px;
+    font-weight: normal;
+    position: fixed;
+}
+
+/* HOMEPAGE SVG's */
+#gnome_home{
+    transform: scale(0.3);
+    left: 423px;
+    bottom: 100px;
+    z-index: -1;
+    position: fixed;
+}
+
+#ok_home{
+    transform: scale(1.0);
+    left: -20px;
+    bottom: -20px;
+    z-index: -1;
+    position: fixed;
+}
+
+#pepe_home{
+    transform: scaleX(-1);
+    left: 900px;
+    bottom: 350px;
+    z-index: -1;
+    position: fixed;
+}
+
+#stonks_home{
+    transform: scale(0.9);
+    left: 50px;
+    bottom: 300px;
+    z-index: -1;
+    position: fixed;
+}
+
+#chad_home{
+    transform: scale(0.8);
+    left: 850px;
+    bottom: -50px;
+    z-index: -1;
+    position: fixed;
+}
+
+#home_konosuba{
+    transform: scale(0.240);
+    left: -660px;
+    bottom: -205px;
+    z-index: -1;
+    position: fixed;
+}
+
+/* Canvas Page */
+#canvas_tpose{
+    transform: scale(0.7);
+    left: 675px;
+    bottom: -100px;
+    z-index: -1;
+    position: fixed;
+}
+
+#canvas_woman{
+    transform: scale(0.7);
+    left: -50px;
+    bottom: -75px;
+    z-index: -1;
+    position: fixed;
+}
+
+/* CSS Page */
+#css_redsus{
+    transform: scale(1.0);
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    position: fixed;
+}
+
+#css_padoru{
+    transform: scaleX(-1);
+    left: 900px;
+    bottom: 25px;
+    z-index: -1;
+    position: fixed;
+}
+
+#css_uganda{
+    transform: scale(1.0);
+    left: 500px;
+    bottom: 25px;
+    z-index: -1;
+    position: fixed;
+}
+
+/* SVG PAGE */
+#svg_oregairu{
+    transform: scale(0.3);
+    left: -1260px;
+    bottom: -225px;
+    z-index: -1;
+    position: fixed;
+}
+
+#svg_menacing1{
+    transform: scale(0.6);
+    left: 100px;
+    bottom: 125px;
+    z-index: -1;
+    position: fixed;
+    animation: menace 0.9s ease-in-out infinite;
+}
+
+@keyframes menace{
+    0%{
+        transform: translate(10px, 0px) scale(0.6);
+    }
+    25%{
+        transform: translate(-5px, 5px) rotate(1deg) scale(0.6);
+    }
+    50%{
+        transform: translate(5px, 10px) rotate(-1deg) scale(0.6);
+    }
+    75%{
+        transform: translate(-10px, 5px) scale(0.6);
+    }
+    100%{
+        transform: translate(10px, 0px) scale(0.6);
+    }
+}
+
+#svg_menacing2{
+    transform: scale(0.6);
+    left: 900px;
+    bottom: 125px;
+    z-index: -1;
+    position: fixed;
+    animation: menace 0.9s ease-in-out infinite;
+    animation-delay: 0.3s;
 }

@@ -89,4 +89,45 @@ body{
 #content_area{
     width: auto;
     height: auto;
+    z-index: 1;
+}
+
+#about{
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    border-top: 5px #3d8bff solid;
+    box-shadow: 10px 10px 50px 0px #0000004d;
+    position: fixed;
+    left: 340px;
+    bottom: -180px;
+    transition: 0.4s;
+}
+
+#about:hover{
+    bottom: 10px;
+    transition: 0.4s;
+}
+
+#about_title{
+    font-family: "Trebuchet MS";
+    font-size: 18pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+#text_title{
+    font-family: "Trebuchet MS";
+    font-size: 72pt;
+    font-weight: normal;
+    position: fixed;
+    left: 500px;
+    bottom: 200px;
+    z-index: -1;
+}
+
+#sub_text{
+    font-family: "Trebuchet MS";
+    font-size: 12pt;
+    margin: 18pt;
 }
