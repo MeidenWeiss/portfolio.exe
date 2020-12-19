@@ -7,12 +7,22 @@ $task = (isset($_GET['task']) && $_GET['task'] != '') ? $_GET['task'] : '';
         <link rel="stylesheet" type="text/css" href="css/page_styles.css">
     </head>
     <body>
+        <h1 id="text_css">CSS</h1>
+        <div id="css_redsus">
+            <object type="image/svg+xml" data="svg/redsus.svg"></object>
+        </div>
+        <div id="css_padoru">
+            <object type="image/svg+xml" data="svg/padoru.svg"></object>
+        </div>
+        <div id="css_uganda">
+            <object type="image/svg+xml" data="svg/uganda.svg"></object>
+        </div>
         <div id="sub_block">
             <div id="sub_menu">
                 <div class="sub_box">
                     Module 2
                     <a href="index.php?page=css&task=lt2.2"><div class="box_drop1">Learning Task 2.2</div></a>
-                    <a href="index.php?page=css&task=lt2.3"><div class="box_drop2">Learning Task 2.3</div></a>
+                    <a href="learningtask2_3.php" target="_blank"><div class="box_drop2">Learning Task 2.3</div></a>
                 </div>
                 <div class="sub_box">
                     Module 3
@@ -22,7 +32,7 @@ $task = (isset($_GET['task']) && $_GET['task'] != '') ? $_GET['task'] : '';
                 <div class="sub_box">
                     Module 4
                     <a href="index.php?page=css&task=lt4.1"><div class="box_drop1">Learning Task 4.1</div></a>
-                    <a href="prelim.php"><div class="box_drop2">CLE1 (PRELIM)</div></a>
+                    <a href="prelim.php" target="_blank"><div class="box_drop2">CLE1 (PRELIM)</div></a>
                 </div>
             </div>
         </div>
@@ -31,9 +41,6 @@ $task = (isset($_GET['task']) && $_GET['task'] != '') ? $_GET['task'] : '';
             switch($task){
                 case 'lt2.2':
                     require_once('learningtask2_2.php');
-                break;
-                case 'lt2.3':
-                    require_once('learningtask2_3.php');
                 break;
                 case 'lt3.2':
                     require_once('learningtask3_2.php');

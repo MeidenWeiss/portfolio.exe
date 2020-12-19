@@ -1,5 +1,5 @@
 <html>
-    <div>
+    <div style="background-color:white;">
         <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
         <!-- KEYFRAME -->
         <h1 class="code_title">KEYFRAME</h1>
